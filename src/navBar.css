@@ -1,0 +1,38 @@
+.lista li {
+    margin: 3px;
+    width: 150px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    list-style: none;
+    lighting-color: grey;
+    background-color: rgb(40, 40, 40);
+    border-radius: .6rem;
+    transition: all 2s;
+}
+.lista li:hover{
+    
+    box-shadow: 0px 0px 30px rgb(92, 92, 92);
+
+}
+.lista li a{
+    width: 100%;
+    padding: 0 2.5rem ;
+    color: grey;
+    transition: all 2s;
+}
+.lista li a:hover {
+    color: greenyellow;
+}
+.lista{
+    display: flex;
+}
+.ItemListContainer {
+    border-bottom: 2px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+

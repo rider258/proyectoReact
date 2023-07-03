@@ -1,0 +1,21 @@
+.cart-render {
+    width: 50px;
+}
+
+.bi {
+    color: grey;
+    font-size: 2rem;
+}
+.enlace{
+    background-color: rgb(53, 53, 53);
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 50px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+.enlace:hover{
+    box-shadow: 0px 0px 30px rgb(92, 92, 92);
+}
