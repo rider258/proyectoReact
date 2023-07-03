@@ -1,4 +1,6 @@
-import './cart.css'
+//Creación del widget del carrito
+
+import './Cart.css'
 
 
 function CartWidget(){

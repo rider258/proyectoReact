@@ -1,10 +1,21 @@
-import { useState } from 'react'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
- 
+
+//importacion de los componentes para su renderización.
+
+
+import Cabecera from './Components/Cabecera.jsx';
+import Contenido from './Components/Contenido.jsx';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className='App'>
+      <Cabecera />
+      <Contenido />
+
+    </div>
+  );
 }
 
-export default App
+export default App;

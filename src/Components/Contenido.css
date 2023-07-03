@@ -1,0 +1,37 @@
+.contenedor-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #822ef5;
+    padding: 2.5rem 10rem;
+    margin-top: 0px;
+    color: #fff;
+}
+.Info-icono {
+    font-size: 3rem;
+}
+.Info {
+    max-width: 50%;
+    font-size: 1.5rem;
+}
+
+
+/* Estilos para aplicación Responsive */
+
+
+@media screen and (max-width:480px) {
+    .contenedor-principal{
+        flex-direction: column;
+    }
+
+    .Info {
+        margin-top: 1rem;
+        min-width: 100vw;
+        font-size: 1rem;
+        padding: 2rem;
+    }
+    .logotipo {
+        min-width: 100vw;
+        text-align: center;
+    }
+}
